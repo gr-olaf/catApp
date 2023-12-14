@@ -33,8 +33,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@reduxjs/toolkit": "^2.0.1",
     "clsx": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4"
   }
 }

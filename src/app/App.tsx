@@ -1,12 +1,12 @@
 import { Header } from '@/widgets/Header';
-import { ListBox } from '@/shared/ui/ListBox';
 import { CurrencyName } from '@/widgets/CurrencyName';
+import { CurrencySelect } from '@/features/CurrencySelect';
 
 const App = () => {
   return (
     <div className="app">
       <Header />
-      <ListBox />
+      <CurrencySelect />
       <CurrencyName />
     </div>
   );
