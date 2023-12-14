@@ -1,8 +1,21 @@
 import { createRoot } from 'react-dom/client';
 
-import App from './App';
+import App from './app/App';
+import '@/app/styles/index.scss';
+import { ErrorBoundary } from '@/app/providers/ErrorBoundary';
 
-const domNode = document.getElementById('root');
-const root = createRoot(domNode);
+const container = document.getElementById('root');
 
-root.render(<App />);
+if (!container) {
+  throw new Error(
+    'Root container was not found. It was not possible to mount the React application'
+  );
+}
+
+const root = createRoot(container);
+
+root.render(
+  <ErrorBoundary>
+    <App />
+  </ErrorBoundary>
+);

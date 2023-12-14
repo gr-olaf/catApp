@@ -1,10 +1,7 @@
-import Counter from './components/Counter';
-import './index.scss';
-
 const App = () => {
   return (
     <div className="app">
-      <Counter />
+      <h1>App</h1>
     </div>
   );
 };
