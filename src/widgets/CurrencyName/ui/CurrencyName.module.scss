@@ -1,0 +1,14 @@
+.currencyName {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 2rem 3rem;
+	font-size: var(--font-size-xl);
+	line-height: var(--font-line-xl);
+	background-color: var(--black);
+	color: var(--white);
+
+	& p {
+		text-align: center;
+	}
+}

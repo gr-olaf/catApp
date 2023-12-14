@@ -4,4 +4,7 @@
 .app {
 	font: var(--font);
 	min-height: 100vh;
+	background-image: url("/src/shared/assets/Kitten.png");
+	background-repeat: no-repeat;
+	background-position: right 2% top;
 }

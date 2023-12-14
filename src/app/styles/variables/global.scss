@@ -1,6 +1,14 @@
 :root {
 	--font-family: "Kreon", serif;
-	--font-size: 16px;
-	--font-line: 24px;
-	--font: var(--font-size) / var(--font-line) var(--font-family);
+	--font-size-m: 20px;
+	--font-line-m: 25px;
+	--font-size-l: 64px;
+	--font-line-l: 80px;
+	--font-size-xl: 96px;
+	--font-line-xl: 121px;
+	--font: var(--font-size-m) / var(--font-line-m) var(--font-family);
+
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
+	--grey: rgb(240, 239, 239);
 }

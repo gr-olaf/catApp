@@ -1,0 +1,15 @@
+.button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 181px;
+	height: 43px;
+	background: transparent;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+
+	.addonRight {
+		display: flex;
+	}
+}
