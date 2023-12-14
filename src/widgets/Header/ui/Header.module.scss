@@ -13,3 +13,10 @@
 		width: 87px;
 	}
 }
+
+@media (max-width: 450px) {
+	.header {
+		padding: 0;
+		justify-content: center;
+	}
+}

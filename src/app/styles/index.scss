@@ -8,3 +8,9 @@
 	background-repeat: no-repeat;
 	background-position: right 2% top;
 }
+
+@media (max-width: 450px) {
+	.app {
+		background-image: none;
+	}
+}

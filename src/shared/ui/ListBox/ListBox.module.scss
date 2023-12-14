@@ -1,23 +1,27 @@
-.listbox {
-	position: relative;
-	width: fit-content;
-	border: 1px solid #dad6d6;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	margin-left: 20px;
+.listbox__container {
+	display: flex;
+	justify-content: start;
+	padding: 0 20px 20px;
 
-	.options {
-		position: absolute;
-		top: 50px;
-		width: 100%;
-		max-height: 170px;
-		overflow: auto;
-		background: var(--white);
+	.listbox {
+		position: relative;
+		width: fit-content;
 		border: 1px solid #dad6d6;
+		border-radius: 10px;
 
-		li {
-			padding: 10px;
-			border-bottom: 1px solid #dad6d6;
+		.options {
+			position: absolute;
+			top: 50px;
+			width: 100%;
+			max-height: 170px;
+			overflow: auto;
+			background: var(--white);
+			border: 1px solid #dad6d6;
+
+			li {
+				padding: 10px;
+				border-bottom: 1px solid #dad6d6;
+			}
 		}
 	}
 }

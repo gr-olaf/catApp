@@ -12,3 +12,11 @@
 		text-align: center;
 	}
 }
+
+@media (max-width: 450px) {
+	.currencyName {
+		font-size: var(--font-size-l);
+		line-height: var(--font-line-l);
+		padding: 2rem 0;
+	}
+}

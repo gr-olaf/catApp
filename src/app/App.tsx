@@ -1,5 +1,5 @@
 import { Header } from '@/widgets/Header';
-import { CurrencyName } from '@/widgets/CurrencyName';
+import { CurrencyName } from '@/features/CurrencyName';
 import { CurrencySelect } from '@/features/CurrencySelect';
 
 const App = () => {
