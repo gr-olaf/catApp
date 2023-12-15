@@ -9,22 +9,8 @@ interface CurrencyProps {
   onChange: (value: CurrencySchema) => void;
 }
 
-const Currency = ({
-  items,
-  defaultValue,
-  value,
-  onChange,
-  className,
-}: CurrencyProps) => {
-  return (
-    <ListBox
-      className={className}
-      items={items}
-      defaultValue={defaultValue}
-      value={value}
-      onChange={onChange}
-    />
-  );
+const Currency = (props: CurrencyProps) => {
+  return <ListBox {...props} />;
 };
 
 export default Currency;
