@@ -3,13 +3,13 @@ import {
   currencySelectReducer,
   currencySelectActions,
 } from './model/slice/currencySelectSlice';
-import { CurrencySelectSchem } from './model/types/currencySelectSchema';
+import { CurrencySelectSchema } from './model/types/currencySelectSchema';
 import { useGetCurrency } from './api/currencySelectApi';
 
 export {
   CurrencySelect,
   currencySelectReducer,
   currencySelectActions,
-  CurrencySelectSchem,
+  CurrencySelectSchema as CurrencySelectSchem,
   useGetCurrency,
 };

@@ -1,5 +1,5 @@
 import { CurrencySchema } from '@/entities/Currency';
 
-export interface CurrencySelectSchem {
+export interface CurrencySelectSchema {
   currency: CurrencySchema;
 }

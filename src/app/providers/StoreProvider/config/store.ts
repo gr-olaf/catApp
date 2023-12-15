@@ -1,4 +1,5 @@
 import { ReducersMapObject, configureStore } from '@reduxjs/toolkit';
+
 import { StateSchema } from './StateSchema';
 import { rtkApi } from '@/shared/api/rtkApi';
 import { currencySelectReducer } from '@/features/CurrencySelect';

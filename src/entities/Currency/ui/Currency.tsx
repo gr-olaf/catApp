@@ -1,5 +1,5 @@
 import { ListBox } from '@/shared/ui/ListBox';
-import { CurrencySchema } from '../model/currency';
+import { CurrencySchema } from '../model/types/currency';
 
 interface CurrencyProps {
   className?: string;
